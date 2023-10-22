@@ -1,0 +1,79 @@
+body {
+  font-family: 'Myriad Pro', 'Trebuchet MS', sans-serif;
+  background: #ffffff;
+}
+
+.login {
+  width: 390px;
+  background-color: brown;
+  border-radius: 5px;
+  padding: 40px;
+  position: absolute;
+  left: 48%;
+  top: 180px;
+  margin-top: 300px;
+  margin-left: -170px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.login h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0 0 15px;
+  text-shadow: 0px -1px rgba(0, 0, 0, 0.5);
+}
+.login input{
+  height: 30px;
+  width: 320px;
+}
+.login input[type="submit"] {
+  margin-top: 10px;
+  display: block;
+  width: 320px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 0;
+  text-shadow: 0px 1px 0px rbga(255, 255, 255, 1);
+  background-color: #f6ba35;
+  background-image: -webkit-linear-gradient(90deg, #eca418, #ffcd4e);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.login .utilities {
+  margin-top: 20px;
+}
+.login .utilities a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.4);
+}
+.login .utilities a:hover {
+  color: white;
+}
+.login .utilities a:nth-child(2) {
+  display: block;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.login:before, .login:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  left: 5px;
+  width: 53%;
+  top: 15px;
+  height: 80%;
+  bottom: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: -10px -15px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: rotate(-3deg);
+}
+.login:after {
+  box-shadow: 10px -15px 20px rgba(0, 0, 0, 0.2) !important;
+  -webkit-transform: rotate(3deg);
+  right: 5px;
+  left: auto;
+}

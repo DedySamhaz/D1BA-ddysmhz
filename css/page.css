@@ -1,0 +1,63 @@
+	#page-title-icon {
+	background: #fff;
+	height: 48px;
+	width: 48px;
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	padding: 4px;
+	margin-left: -16px;
+	margin-top: -18px;
+	position: relative;
+	z-index: 10;
+	float: left;
+	
+}
+
+#page-title-icon-inner {
+	background: #ffd35f;
+	height: 48px;
+	width: 48px;
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	margin-left: -52px;
+	margin-top: -14px;
+	position: relative;
+	z-index: 30;
+	float: left;
+}
+
+#page-title {
+	background: url(../img/bg-grey2.png);
+	display: block;
+	margin-bottom: 25px;
+	position: relative;
+	z-index: 20;
+	border-bottom: 5px solid #A9A9A9;
+}
+
+#page-title-inner {
+	background: rgba(169, 169, 169,0.9);
+	-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
+	-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
+	box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
+	padding: 10px;
+}
+
+#page-title i {
+	margin: -6px 2px -5px -18px;
+	padding: 0px;
+}
+
+#page-title h2 {
+	display: inline-block;
+	font-family: "Boogaloo" !important;
+	color: #fff;
+	padding: 10px 20px 5px 20px;
+	font-size: 30px;
+}
+
+#page-title span {
+	color: #555;
+}

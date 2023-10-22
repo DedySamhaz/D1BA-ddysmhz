@@ -1,0 +1,46 @@
+/*----*/
+ul.start {
+	padding: 0em 0 14em 4em;
+}
+ul.start li {
+	display: inline-block;
+    padding: 0 0.25em;
+}
+ul.start li.arrow a, ul.start li span {
+	text-decoration: none;
+	color: #362f2f;
+	font-size: 1em;
+	padding: 0.4em 0.9em;
+	background: rgb(217,217,217);
+	background: -moz-linear-gradient(top, rgba(217,217,217,1) 54%, rgba(208,208,208,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(54%,rgba(217,217,217,1)), color-stop(100%,rgba(208,208,208,1)));
+	background: -webkit-linear-gradient(top, rgba(217,217,217,1) 54%,rgba(208,208,208,1) 100%);
+	background: -o-linear-gradient(top, rgba(217,217,217,1) 54%,rgba(208,208,208,1) 100%);
+	background: -ms-linear-gradient(top, rgba(217,217,217,1) 54%,rgba(208,208,208,1) 100%);
+	background: linear-gradient(to bottom, rgba(217,217,217,1) 54%,rgba(208,208,208,1) 100%);
+	border-radius: 5px;
+	display:block;
+	font-weight: 400;
+}
+ul.start li span,ul.start li.arrow a:hover{
+	background: rgb(252,94,53);
+	background: -moz-linear-gradient(top, rgba(252,94,53,1) 55%, rgba(252,94,53,1) 55%, rgba(233,71,34,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgba(252,94,53,1)), color-stop(55%,rgba(252,94,53,1)), color-stop(100%,rgba(233,71,34,1)));
+	background: -webkit-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	background: -o-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	background: -ms-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	background: linear-gradient(to bottom, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	color:#fff;
+}
+ul.start li a i{
+	background: url(../images/img-sprite.png)no-repeat -90px -56px;
+	width: 36px;
+	height: 36px;
+	display:inline-block;
+	vertical-align:middle;	
+}
+ul.start li a i.next {
+	background-position:-136px -54px;
+}	
+
+
